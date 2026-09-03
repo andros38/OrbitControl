@@ -5,17 +5,23 @@ yang berkomunikasi langsung melalui Huawei HiLink API pada jaringan lokal.
 
 ## Screenshot
 
-### Ringkasan
+### Dashboard / Ringkasan
 
-![Ringkasan Orbit Control](screenshot/img1.png)
+<p align="center">
+  <img src="screenshot/img1.png" alt="Orbit Control Dashboard" width="900">
+</p>
 
-### Pemilihan Band
+### Band Lock
 
-![Pemilihan Band Orbit Control](screenshot/img2.png)
+<p align="center">
+  <img src="screenshot/img2.png" alt="Orbit Control Band Lock" width="900">
+</p>
 
 ### Statistik
 
-![Statistik Orbit Control](screenshot/img3.png)
+<p align="center">
+  <img src="screenshot/img3.png" alt="Orbit Control Statistics" width="900">
+</p>
 
 ## Download
 
