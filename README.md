@@ -154,7 +154,9 @@ Lihat [`CHANGELOG.md`](CHANGELOG.md) untuk riwayat perubahan versi.
 
 ## Lisensi
 
-Lisensi proyek belum ditentukan. Sebelum menerima kontribusi atau mengizinkan redistribusi/modifikasi source code oleh pihak lain, tambahkan file `LICENSE` yang sesuai dengan kebijakan proyek.
+Orbit Control didistribusikan di bawah [MIT License](LICENSE).
+
+Copyright © 2026 Ahmad Asyhari (Andros Programmer).
 
 ## Disclaimer
 
