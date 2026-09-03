@@ -1,22 +1,28 @@
 # Orbit Control
 
-**Orbit Control** adalah aplikasi manajemen modem untuk **Huawei/Orbit B312** yang bekerja langsung melalui **Huawei HiLink API** pada jaringan lokal. Proyek ini tersedia untuk **Android, Windows, dan Linux**.
+Orbit Control adalah aplikasi manajemen modem untuk Huawei/Orbit B312
+yang berkomunikasi langsung melalui Huawei HiLink API pada jaringan lokal.
 
-Aplikasi difokuskan pada pemantauan dan pengelolaan modem tanpa browser, WebView, Electron, maupun layanan backend.
+**Versi terbaru: v0.5.0**
 
-> Versi saat ini: **v0.5.0**
+## Download
 
-## Untuk pengguna
+Jika Anda hanya ingin menggunakan Orbit Control, unduh aplikasi
+siap pakai melalui halaman **Releases**.
 
-Jika Anda hanya ingin menggunakan Orbit Control, unduh aplikasi siap pakai melalui halaman **Releases** repository ini.
+### Android
 
-Paket yang tersedia/direncanakan:
+- `Orbit-Control-0.5.0-Android.apk`
 
-| Platform | Paket | Keterangan |
-|---|---|---|
-| Android | `.apk` | Instal langsung pada perangkat Android yang didukung |
-| Windows | `.exe` / `.msi` | Installer Windows 10/11 x64; Java runtime disertakan |
-| Linux | `.deb` / `.rpm` | Dibangun untuk distribusi Linux x64 yang didukung |
+### Windows
+
+- `Orbit.Control-0.5.0-Windows-Setup.exe` — direkomendasikan
+- `Orbit.Control-0.5.0-Windows.msi`
+
+### Linux
+
+Binary Linux belum tersedia pada v0.5.0.
+Source code Linux tersedia pada folder `linux/`.
 
 > Android membutuhkan minimal Android 7.0 (API 24). Untuk Windows, target rilis utama adalah Windows 10/11 x64.
 
@@ -30,8 +36,6 @@ Paket yang tersedia/direncanakan:
 - Daftar perangkat yang terhubung.
 - Informasi firmware dan status teknis modem.
 - Export Debug Report tanpa menyertakan password, SessionID/token, IMEI, atau serial number.
-
-Orbit Control v0.5.0 difokuskan sebagai aplikasi manajemen modem. Fitur penelitian seperti rekomendasi band, throughput/Speed Test, perbandingan Antenna A/B, Log Radio, dan ekspor CSV tidak disertakan pada versi ini.
 
 ## Cara menggunakan
 
