@@ -3,7 +3,19 @@
 Orbit Control adalah aplikasi manajemen modem untuk Huawei/Orbit B312
 yang berkomunikasi langsung melalui Huawei HiLink API pada jaringan lokal.
 
-**Versi terbaru: v0.5.0**
+## Screenshot
+
+### Ringkasan
+
+![Ringkasan Orbit Control](screenshot/img1.png)
+
+### Pemilihan Band
+
+![Pemilihan Band Orbit Control](screenshot/img2.png)
+
+### Statistik
+
+![Statistik Orbit Control](screenshot/img3.png)
 
 ## Download
 
