@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000101 /* OrbitControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000101 /* OrbitControlApp.swift */; };
+		A00000000000000000000102 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000102 /* AppModel.swift */; };
+		A00000000000000000000103 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000103 /* Models.swift */; };
+		A00000000000000000000104 /* XMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000104 /* XMLNode.swift */; };
+		A00000000000000000000105 /* HuaweiSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000105 /* HuaweiSessionManager.swift */; };
+		A00000000000000000000106 /* ModemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000106 /* ModemRepository.swift */; };
+		A00000000000000000000107 /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000107 /* SharedViews.swift */; };
+		A00000000000000000000108 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000108 /* LoginView.swift */; };
+		A00000000000000000000109 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000109 /* DashboardView.swift */; };
+		A00000000000000000000110 /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000110 /* DevicesView.swift */; };
+		A00000000000000000000111 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000111 /* ToolsView.swift */; };
+		A00000000000000000000112 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000112 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000101 /* OrbitControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitControlApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000102 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		B00000000000000000000103 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B00000000000000000000104 /* XMLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLNode.swift; sourceTree = "<group>"; };
+		B00000000000000000000105 /* HuaweiSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuaweiSessionManager.swift; sourceTree = "<group>"; };
+		B00000000000000000000106 /* ModemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModemRepository.swift; sourceTree = "<group>"; };
+		B00000000000000000000107 /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViews.swift; sourceTree = "<group>"; };
+		B00000000000000000000108 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B00000000000000000000109 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B00000000000000000000110 /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
+		B00000000000000000000111 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		B00000000000000000000112 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B00000000000000000000201 /* OrbitControliOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitControliOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00000000000000000000101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00000000000000000000101 = {
+			isa = PBXGroup;
+			children = (
+				D00000000000000000000102 /* OrbitControliOS */,
+				D00000000000000000000106 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D00000000000000000000102 /* OrbitControliOS */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000101 /* OrbitControlApp.swift */,
+				B00000000000000000000102 /* AppModel.swift */,
+				D00000000000000000000103 /* Models */,
+				D00000000000000000000104 /* Services */,
+				D00000000000000000000105 /* Views */,
+			);
+			path = OrbitControliOS;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000103 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000103 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000104 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000104 /* XMLNode.swift */,
+				B00000000000000000000105 /* HuaweiSessionManager.swift */,
+				B00000000000000000000106 /* ModemRepository.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000105 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000107 /* SharedViews.swift */,
+				B00000000000000000000108 /* LoginView.swift */,
+				B00000000000000000000109 /* DashboardView.swift */,
+				B00000000000000000000110 /* DevicesView.swift */,
+				B00000000000000000000111 /* ToolsView.swift */,
+				B00000000000000000000112 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000201 /* OrbitControliOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000101 /* OrbitControliOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00000000000000000000102 /* Build configuration list for PBXNativeTarget "OrbitControliOS" */;
+			buildPhases = (
+				C00000000000000000000102 /* Sources */,
+				C00000000000000000000101 /* Frameworks */,
+				C00000000000000000000103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrbitControliOS;
+			productName = OrbitControliOS;
+			productReference = B00000000000000000000201 /* OrbitControliOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00000000000000000000102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E00000000000000000000101 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F00000000000000000000101 /* Build configuration list for PBXProject "OrbitControliOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00000000000000000000101;
+			productRefGroup = D00000000000000000000106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00000000000000000000101 /* OrbitControliOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00000000000000000000103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00000000000000000000102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000101 /* OrbitControlApp.swift in Sources */,
+				A00000000000000000000102 /* AppModel.swift in Sources */,
+				A00000000000000000000103 /* Models.swift in Sources */,
+				A00000000000000000000104 /* XMLNode.swift in Sources */,
+				A00000000000000000000105 /* HuaweiSessionManager.swift in Sources */,
+				A00000000000000000000106 /* ModemRepository.swift in Sources */,
+				A00000000000000000000107 /* SharedViews.swift in Sources */,
+				A00000000000000000000108 /* LoginView.swift in Sources */,
+				A00000000000000000000109 /* DashboardView.swift in Sources */,
+				A00000000000000000000110 /* DevicesView.swift in Sources */,
+				A00000000000000000000111 /* ToolsView.swift in Sources */,
+				A00000000000000000000112 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F00000000000000000000101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F00000000000000000000102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00000000000000000000103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OrbitControliOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitcontrol.ios;
+				PRODUCT_NAME = "Orbit Control";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F00000000000000000000104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OrbitControliOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitcontrol.ios;
+				PRODUCT_NAME = "Orbit Control";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00000000000000000000101 /* Build configuration list for PBXProject "OrbitControliOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00000000000000000000101 /* Debug */,
+				F00000000000000000000102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00000000000000000000102 /* Build configuration list for PBXNativeTarget "OrbitControliOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00000000000000000000103 /* Debug */,
+				F00000000000000000000104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00000000000000000000102 /* Project object */;
+}
