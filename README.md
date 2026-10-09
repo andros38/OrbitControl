@@ -13,12 +13,12 @@ Aplikasi sekarang tersedia untuk Android, Windows. Namun untuk Linux, dan iOS an
 
 ## Download dan status platform
 
-| Platform | Status v0.5.0 | Distribusi |
+| Platform | Status | Distribusi |
 | --- | --- | --- |
 | Android | Tersedia | APK |
 | Windows | Tersedia | Installer `.exe` dan `.msi` |
-| Linux | Source tersedia | Build mandiri menjadi `.deb` atau `.rpm` |
-| iOS/iPadOS | Source tersedia | Build melalui Xcode di macOS |
+| Linux | Source tersedia | Perlu Build mandiri menjadi `.deb` atau `.rpm` |
+| iOS/iPadOS | Source tersedia | Perlu Build melalui Xcode di macOS |
 
 ### Minimum Rekomendasi Spesifikasi
 
