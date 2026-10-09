@@ -6,9 +6,9 @@ Aplikasi sekarang tersedia untuk Android, Windows. Namun untuk Linux, dan iOS an
 ## Screenshot
 
 <p>
-  <img src="screenshot/img1.png" alt="Orbit Control Dashboard" width="150">
-  <img src="screenshot/img2.png" alt="Orbit Control Band Lock" width="150">
-  <img src="screenshot/img3.png" alt="Orbit Control Statistics" width="150">
+  <img src="screenshot/img1.png" alt="Orbit Control Dashboard" width="200">
+  <img src="screenshot/img2.png" alt="Orbit Control Band Lock" width="200">
+  <img src="screenshot/img3.png" alt="Orbit Control Statistics" width="200">
 </p>
 
 ## Download dan status platform
