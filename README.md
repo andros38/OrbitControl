@@ -4,7 +4,6 @@ Orbit Control adalah aplikasi manajemen modem untuk Huawei B312 / Orbit Star 2 y
 Aplikasi sekarang tersedia untuk Android, Windows. Namun untuk Linux, dan iOS anda bisa compile sendiri menggunakan source code yang telah saya sediakan.
 
 ## Screenshot
-
 <p>
   <img src="screenshot/img1.png" alt="Orbit Control Dashboard" width="300">
   <img src="screenshot/img2.png" alt="Orbit Control Band Lock" width="300">
