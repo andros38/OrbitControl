@@ -1,32 +1,21 @@
 # Orbit Control
 
-Orbit Control adalah aplikasi manajemen modem untuk Huawei/Orbit B312 yang berkomunikasi langsung melalui Huawei HiLink API pada jaringan lokal.
-
-Aplikasi tersedia atau sedang disiapkan untuk Android, Windows, Linux, dan iOS. Fokus utamanya adalah pemantauan serta pengelolaan modem, termasuk Band Lock LTE manual.
+Orbit Control adalah aplikasi manajemen modem untuk Huawei B312 / Orbit Star 2 yang berkomunikasi langsung melalui Huawei HiLink API pada jaringan lokal.
+Aplikasi sekarang tersedia untuk Android, Windows. Namun untuk Linux, dan iOS anda bisa compile sendiri menggunakan source code yang telah saya sediakan.
 
 ## Screenshot
 
-### Dashboard / Ringkasan
-
 <p align="center">
-  <img src="screenshot/img1.png" alt="Orbit Control Dashboard" width="500">
+  <img src="screenshot/img1.png" alt="Orbit Control Dashboard" width="150">
 </p>
-
-### Band Lock
-
 <p align="center">
-  <img src="screenshot/img2.png" alt="Orbit Control Band Lock" width="500">
+  <img src="screenshot/img2.png" alt="Orbit Control Band Lock" width="150">
 </p>
-
-### Statistik
-
 <p align="center">
-  <img src="screenshot/img3.png" alt="Orbit Control Statistics" width="500">
+  <img src="screenshot/img3.png" alt="Orbit Control Statistics" width="150">
 </p>
 
 ## Download dan status platform
-
-Jika Anda hanya ingin menggunakan Orbit Control, unduh aplikasi siap pakai melalui halaman **Releases**.
 
 | Platform | Status v0.5.0 | Distribusi |
 | --- | --- | --- |
@@ -35,32 +24,17 @@ Jika Anda hanya ingin menggunakan Orbit Control, unduh aplikasi siap pakai melal
 | Linux | Source tersedia | Build mandiri menjadi `.deb` atau `.rpm` |
 | iOS/iPadOS | Source tersedia | Build melalui Xcode di macOS |
 
-### Android
+### Minimum Rekomendasi Spesifikasi
 
-- `Orbit-Control-0.5.0-Android.apk`
-
-### Windows
-
-- `Orbit.Control-0.5.0-Windows-Setup.exe` — direkomendasikan
-- `Orbit.Control-0.5.0-Windows.msi`
-
-### Linux
-
-Binary Linux belum tersedia pada v0.5.0. Source code Linux tersedia pada folder `linux/`.
-
-### iOS dan iPadOS
-
-Versi native iOS/iPadOS telah disiapkan untuk **iOS 15+** menggunakan SwiftUI. Source code tersedia pada folder `ios/`.
-
-IPA siap instal belum didistribusikan secara publik karena aplikasi iOS harus dibangun dan ditandatangani menggunakan Xcode serta akun Apple Developer. Pengguna dapat menjalankan proyek dari Xcode untuk perangkat pribadi atau Simulator.
-
-> Android membutuhkan minimal Android 7.0 (API 24). Untuk Windows, target rilis utama adalah Windows 10/11 x64. Linux ditargetkan untuk Linux x64. Versi iOS mendukung iPhone dan iPad dengan iOS/iPadOS 15 atau lebih baru.
+- `Android membutuhkan minimal Android 7.0 (API 24)`
+- `Windows membutuhkan minimal Windows 10 x64`
+- `Linux membutuhkan minimal Linux x64 dengan distro debian`.
+- `iOS mendukung iPhone dan iPad, minimal iOS/iPadOS 15 atau lebih baru`
 
 ## Fitur utama
 
-- Login ke modem melalui Huawei HiLink API.
 - Dashboard status modem, operator, traffic, WAN/LAN, perangkat, dan metrik sinyal.
-- **Band Lock LTE manual** dengan konfirmasi dan verifikasi konfigurasi setelah perubahan.
+- Band Lock LTE manual dengan konfirmasi dan verifikasi konfigurasi setelah perubahan.
 - Statistik penggunaan dari counter modem.
 - Diagnosis koneksi berbasis HTTP latency.
 - Daftar perangkat yang terhubung.
@@ -69,7 +43,7 @@ IPA siap instal belum didistribusikan secara publik karena aplikasi iOS harus di
 
 ## Cara menggunakan
 
-1. Sambungkan perangkat ke Wi-Fi/LAN modem Huawei/Orbit B312.
+1. Sambungkan perangkat ke Wi-Fi/LAN modem.
 2. Jalankan Orbit Control.
 3. Masukkan alamat modem. Default yang umum digunakan adalah `http://192.168.8.1`.
 4. Masukkan username dan password modem.
@@ -77,7 +51,6 @@ IPA siap instal belum didistribusikan secara publik karena aplikasi iOS harus di
 6. Gunakan menu **Ringkasan**, **Tools**, **Perangkat**, dan **Setelan** untuk mengelola modem.
 
 Pada iOS/iPadOS, izinkan akses **Local Network** ketika sistem meminta izin agar aplikasi dapat menghubungi modem pada jaringan lokal.
-
 Password modem tidak disimpan. Bila opsi penyimpanan konfigurasi digunakan, aplikasi hanya menyimpan host dan username.
 
 ## Source code
